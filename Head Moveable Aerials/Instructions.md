@@ -65,7 +65,7 @@ In addition to the printed parts, you need
 
 ### Material
 
-Use LW-PLA (lightweight, the foaming kind) for `Head.stl`, `AerialArmBracketx3.stl`, `Nose.stl` and `AerialTipx3.stl`. Print the head and nose with a single wall, as lightweight as you possibly can. If you want you can also print `AerialBasex3.stl` in LW-PLA, unless you go to conventions, in which case it's probably a better idea to print it in TPU for flexibility should some kid grab your droid by the aerial.
+Use LW-PLA (lightweight, the foaming kind) for `Head.stl`, `HeadPlateDynamixel.stl`, `AerialArmBracketx3.stl`, `Nose.stl` and `AerialTipx3.stl`. Print the head and nose with a single wall, as lightweight as you possibly can. If you want you can also print `AerialBasex3.stl` in LW-PLA, unless you go to conventions, in which case it's probably a better idea to print it in TPU for flexibility should some kid grab your droid by the aerial.
 
 Use TPU for `ServoFramex3.stl`, and print 3 of them. The reason for using TPU is to decouple the servo vibrations. If you can't print TPU you can also print these out of some other material, you'll hear a bit more servo noise, no big deal.
 
