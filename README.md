@@ -1,6 +1,10 @@
 # D-Ov2Evo
 Bavarian Builders: Felix Beyer, Björn Giesler
 
+## This is an ADD-ON to Michael Baddeley's files!
+
+This GitHub contains modified print files that are to be used as add-ons and partial replacements of Michael Baddeley's D-Ov2. This GitHub does not contain all the files to print a functional droid, you still need parts from [Michael's Patreon](https://www.patreon.com/c/mrbaddeley). We have Michael's express permission to post our modifications on GitHub to better handle file changes, upgrades etc., but will never post all files for a functional droid here.
+
 ## What is D-Ov2Evo?
 
 D-Ov2Evo is an extension of Michael Baddeley’s great D-Ov2 design for the D-O Astromech Droid from The Rise of Skywalker. 
