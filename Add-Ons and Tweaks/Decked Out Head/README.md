@@ -10,7 +10,7 @@ This head absolutely needs a neck counterweight, it is too heavy otherwise. Even
 * 3 WS2812 LED strips with 20 LEDs each (e.g. https://de.aliexpress.com/item/4000197861280.html)
 * Optional FPV camera: Wyvern Link VTX 100mW transmitter (https://de.banggood.com/Emax-Wyvern-Link-AlphaOpenIPC-100mW-Video-Transmitter-VTX-for-RC-Drone-p-2022191.html)
 * Optional FPV cam receiver (https://www.banggood.com/Emax-Wyvern-Link-AlphaOpenIPC-100mW-Video-Receiver-VRX-p-2022194.html)
-* On the Qt Py in the head, solder the board with the Neopixel connector, not the one without.
+* On the Qt Py in the head, use the board with the Neopixel connector, not the one without. SMD solder the Neopixel connector on first, if it isn't already. Make sure that you also solder the side tabs, as they will take the mechanical strain from inserting the cable later - if you don't there is a good chance of breaking off the connector. Ask me how I know.
 
 ## Printing and Assembly Instructions
 1. Print the head variant of your choice, and the eye tray. 
@@ -24,7 +24,8 @@ This head absolutely needs a neck counterweight, it is too heavy otherwise. Even
 ## Connecting the Neopixel strips
 This is a bit awkward for the current generation of boards. We are updating the board but at the moment you have to do some wiring and modification on the connector.
 
-1. SMD solder the connector onto the board if it is not already on. Make sure that you also solder the side tabs, as they will take the mechanical strain from inserting the cable later - if you don't there is a good chance of breaking off the connector. Ask me how I know.
-2. Solder a wire from the board's +5V input to the ESP32's +5V input.
-3. Solder a wire from the ESP32's RX pin (it's the one farthest away from the +5V input on the same side) to the small hole on the board marked "NP" or "Neopixel".
-4. Do not plug the Neopixel strip in yet. Plug the board into USB-C and measure the connection. It should have GND on the pin next to the "NP" hole, the connection to "NP" on the middle pin, and the connection to +5V on the pin closest to the ESP32 board. Make sure that your cable reflects that mapping - black wire is GND, red wire is +5V, and white wire is Data or "NP". You can rewire the cable by carefully lifting up the plastic tabs holding the pins with a needle and gently pulling the pins out and reinserting them into the correct holes.
+1. SMD solder the connector onto the board if it is not already on - BEFORE soldering the board to the Qt Py. 
+2. Solder a wire from the board's +5V input to the pin taking ESP32's +5V input.
+3. Solder a wire from the pin taking the ESP32's RX pin (it's the one farthest away from the +5V input on the same side) to the small hole on the board marked "NP" or "Neopixel".
+4. Solder the board to the Qt Py using a pin header, connecting all 6 pins on the +5V side of the Qt Py, +5V pin farthest away from the Neopixel connector, USB-C port pointing down.
+5. Do not plug the Neopixel strip in yet. Plug the board into USB-C and measure the connection. It should have GND on the pin next to the "NP" hole, the connection to "NP" on the middle pin, and the connection to +5V on the pin closest to the ESP32 board. Make sure that your cable reflects that mapping - black wire is GND, red wire is +5V, and white wire is Data or "NP". You can rewire the cable by carefully lifting up the plastic tabs holding the pins with a needle and gently pulling the pins out and reinserting them into the correct holes.
