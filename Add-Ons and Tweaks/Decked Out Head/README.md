@@ -17,7 +17,7 @@ This head absolutely needs a neck counterweight, it is too heavy otherwise. Even
 2. Print the eye lens three times in regular white PLA.
 3. Paint the eye lenses with a couple coats of headlight tint spray until they are as dark as you would like them.
 4. Cut 3 LEDs off each of the LED strips, leaving 17 LEDs on each strip. Cut off the side without the cable, and make sure that you leave enough of the soldering pads intact that you can still solder cables to them.
-5. Cut off the connectors on 2 of the strips.
+5. Cut the connectors off the end of the cables on 2 of the strips, and strip the ends of the cables with a wire stripper to expose a mm or so of bare wire.
 6. Use double sided tape to mount the LED strips in the eye tray. The left eye gets the strip with the connector on it; push the connector through the hole at the top. The strip for the middle eye is mounted upside down; route the cable out the bottom and into the bottom hole on the left strip. The strip for the right eye is mounted with the cable pointing up; route it out the top and into the top hole on the middle strip.
 7. Carefully connect the three strips by soldering the cables from the middle to the left and from the right to the middle strip, matching the colors of the cables coming out the other side. Lift the strip ends with the solder pads out of the eye tray for this so you don't heat up the eye tray's PLA.
 
